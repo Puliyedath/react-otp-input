@@ -339,7 +339,7 @@ class OtpInput extends Component<Props, State> {
           index={i}
           focus={activeInput === i}
           value={otp && otp[i]}
-          onChange={this.handleOnChange}
+          onInput={this.handleOnChange}
           onKeyDown={this.handleOnKeyDown}
           onInput={this.handleOnInput}
           onPaste={this.handleOnPaste}
